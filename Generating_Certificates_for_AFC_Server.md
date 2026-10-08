@@ -21,6 +21,7 @@ openssl req -new -key server.key.pem -out server.csr.pem
 ##### Sign with proper DNS and IP:
 
 \#Note extfile upgrades the version to v3 which is now required.
+\#Note Set DNS and IP based on deployed server.
 
 openssl x509 -req \\
 
