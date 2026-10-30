@@ -68,7 +68,7 @@ cat test_ca_crt.pem client.cert.pem > client.bundle.pem
 ## After Creation:
 
 
-Inside openafc/dispacter/servers:
+Inside openafc/dispatcher/servers:
 
 - Replace the server files with server.key.pem, server.cert.pem, server.bundle.pem
 
